@@ -1,4 +1,4 @@
-# HospitalRun Website
+# HospitalRun 网站
 
 <div align="center">
 
@@ -6,24 +6,24 @@
 
 </div>
 
-This project contains the current HospitalRun website.
-Powered by [GitHub Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/docs/).
+这个项目包含着最近的HospitalRun网站.
+由 [GitHub Pages](https://pages.github.com/) 和 [Jekyll](https://jekyllrb.com/docs/).支持
 
 ---
 
-## Running / Development
+##运行 / 开发
 
-If you want to manage HospitalRun website in a local web development environment, you'll be using [Ruby](https://www.ruby-lang.org/it/documentation/installation/). 
+如果你想在本地网络开发环境中管理这个网站，你将使用[Ruby](https://www.ruby-lang.org/it/documentation/installation/). 
 
-0. Install Jekyll and [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) [gems](https://jekyllrb.com/docs/ruby-101/#gems)
+0.安装 Jekyll 和 [bundler](https://jekyllrb.com/docs/ruby-101/#bundler) [gems](https://jekyllrb.com/docs/ruby-101/#gems)
 ```
 gem install jekyll bundler
 ```
-1. Clone the repository
+1. 克隆数据库
 ```
 git clone git@github.com:HospitalRun/hospitalrun.github.io.git
 ```
-2. Change into your new directory
+2. 换到你的新目录中
 ```
 cd hospitalrun.github.io
 ```
@@ -36,7 +36,7 @@ bundle install
 bundle exec jekyll serve
 ```
 
-You should see something like:
+你应该看到像这样的提示:
 
 ```
 Configuration file: /HospitalRun/hospitalrun.github.io/_config.ym
@@ -50,9 +50,9 @@ Configuration file: /HospitalRun/hospitalrun.github.io/_config.ym
   Server running... press ctrl-c to stop.
 ```
 
-5. Browse to [http://localhost:4000](http://localhost:4000)
+5. 切换到 [http://localhost:4000](http://localhost:4000)
 
-## Folder structure
+## 折叠的结构
 
 ```sh
 hospitalrun.github.io/
@@ -76,6 +76,6 @@ hospitalrun.github.io/
 └── tryit     
 ```
 
-# License
+# 许可协议
 
-Released under the [MIT license](LICENSE).
+根据 [MIT license](LICENSE).发布
